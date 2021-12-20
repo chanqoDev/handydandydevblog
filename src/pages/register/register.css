@@ -1,0 +1,54 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://wallpapercave.com/wp/wp8264313.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.registerTitle {
+    font-size: 50px;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0; 
+}
+
+.registerInput {
+    padding: 10px; 
+    background-color: white;
+    border: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #0097e6;
+    border: none;
+    color: white; 
+    border-radius: 10%;
+    padding: 10px;  
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 60px; 
+    right: 20px;
+    background-color: #c23616;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
