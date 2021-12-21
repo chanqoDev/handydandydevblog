@@ -34,7 +34,7 @@
 .loginButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: #c23616;
+    background-color: #E7210F;
     border: none;
     color: white; 
     border-radius: 10%;
@@ -45,7 +45,7 @@
     position: absolute;
     top: 60px; 
     right: 20px;
-    background-color: #0097e6;
+    background-color: #465FBC;
     cursor: pointer;
     border: none;
     color: white;

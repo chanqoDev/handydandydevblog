@@ -6,7 +6,7 @@
     background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://wallpapercave.com/wp/wp8264313.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center right;
     background-attachment: fixed;
     align-items: center;
 }
@@ -34,7 +34,7 @@
 .registerButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: #0097e6;
+    background-color: #465FBC;
     border: none;
     color: white; 
     border-radius: 10%;
@@ -45,7 +45,7 @@
     position: absolute;
     top: 60px; 
     right: 20px;
-    background-color: #c23616;
+    background-color: #A3112E;
     cursor: pointer;
     border: none;
     color: white;
