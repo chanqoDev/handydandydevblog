@@ -6,7 +6,7 @@ export default function SinglePost() {
       <div className="singlePostWrap">
         <img
           className="singlePostImg"
-          src="./assets/moon.png"
+          src="/assets/moon.png"
           alt="TWiligth Moonlight Bright"
         ></img>
         <h1 className="singlePostTitle">

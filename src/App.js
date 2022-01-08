@@ -13,23 +13,29 @@ export default function App() {
   const currentUser = false;
   return (
     <BrowserRouter>
-      <Routes>
-        <Route exact path="/">
-          <Route index element={currentUser ? <Home /> : <Login />} />
-        </Route>
-        <Route path="home" element={currentUser ? <Home /> : <Login />} />
-        <Route path="login" element={currentUser ? <Home /> : <Login />} />
+      <TopBar />
+      <Routes exact path="/">
+        <Route index element={currentUser ? <Home /> : <Login />}></Route>
+        <Route path="home" element={currentUser ? <Home /> : <Login />}></Route>
+        <Route
+          path="login"
+          element={currentUser ? <Home /> : <Login />}
+        ></Route>
+
         <Route
           path="register"
           element={currentUser ? <Home /> : <Register />}
-        />
-        <Route path="write" element={currentUser ? <Write /> : <Register />} />
+        ></Route>
+
+        <Route
+          path="write"
+          element={currentUser ? <Write /> : <Register />}
+        ></Route>
         <Route
           path="settings"
           element={currentUser ? <Settings /> : <Register />}
-        />
-        <Route path="/post/:postId" element={<Single />} />
-        {/* <Route path="*" element={<noPage />} /> */}
+        ></Route>
+        <Route path="/post/:postId" element={<Single />}></Route>
       </Routes>
     </BrowserRouter>
   );
