@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   // Pseudo user
-  const currentUser = false;
+  const currentUser = true;
   return (
     <BrowserRouter>
       <TopBar />
