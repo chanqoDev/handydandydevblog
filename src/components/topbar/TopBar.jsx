@@ -41,7 +41,7 @@ export default function TopBar() {
         {user ? (
           <img
             className="topImg"
-            src="https://yt3.ggpht.com/yti/APfAmoG84ekdZIGcAwjN5sKrn24iN2qMtKASBpTHNMQdtQ=s108-c-k-c0x00ffffff-no-rj"
+            src="./assets/meeee.png"
             alt="Myself as a crypto punk"
           />
         ) : (
