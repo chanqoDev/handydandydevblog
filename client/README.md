@@ -20,3 +20,9 @@ React, TypeScript (if applicable), Material UI, REST API
 ```bash
 npm install
 npm start
+```
+
+### Highlights
+Built scalable frontend architecture using React
+Integrated REST API for dynamic content rendering
+Implemented clean UI state handling and routing
